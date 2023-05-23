@@ -1,0 +1,28 @@
+/*display nav bar*/
+
+#login{
+    display: none;
+}
+
+/*
+#ihrisko_m{
+    display: none;
+}
+*/
+#statistiky {
+    display: none;
+}
+
+#prihlasenie{
+    display: none;
+}
+
+#register{
+    display: none;
+}
+
+/*
+.stat_admin {
+    display: none;
+}
+*/

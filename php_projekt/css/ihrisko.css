@@ -1,0 +1,705 @@
+/*ihrisko*/
+.ihrisko {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    margin: 40px auto 0 auto;
+    background-color: var(--white);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    overflow: hidden;
+}
+.stredova {
+    width: 0.6%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 49.7%;
+    z-index: 1;
+    background-color: red;
+}
+.lava_cervena{
+    width: 0.4%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 7%;
+    z-index: 2;
+    background-color: red;
+}
+.prava_cervena{
+    width: 0.3%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 7%;
+    z-index: 2;
+    background-color: red;
+}
+.lava_modra{
+    width: 0.5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 36%;
+    z-index: 1;
+    background-color: rgb(64, 64, 255);
+}
+.prava_modra{
+    width: 0.5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 36%;
+    z-index: 1;
+    background-color: rgb(64, 64, 255);
+}
+.vlavo_hore_cervena {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    top: 20%;
+    left: 17%;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+}
+.vlavo_dole_cervena {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    bottom: 20%;
+    left: 17%;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+}
+.vlavo_stred_hore_cervena {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    top: 20%;
+    left: 39%;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+}
+.vlavo_stred_dole_cervena {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    bottom: 20%;
+    left: 39%;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+}
+.vpravo_stred_hore_cervena {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    top: 20%;
+    right: 39%;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+}
+.vpravo_stred_dole_cervena {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    bottom: 20%;
+    right: 39%;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+}
+.vpravo_hore_cervena {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    top: 20%;
+    right: 17%;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+}
+.vpravo_dole_cervena {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    bottom: 20%;
+    right: 17%;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+}
+.stred_modra {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(64, 64, 255);
+    bottom: 49.4%;
+    right: 49.4%;
+    z-index: 1;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    position: absolute;
+}
+.stred_modra_kruh {
+    width: 14.5%;
+    height: 25%;
+    bottom: 38%;
+    right: 43%;
+    z-index: 1;
+    border-radius: 50%;
+    border: 1px solid rgb(64, 64, 255);
+    position: absolute;
+}
+.vpravo_hore_cervena_kruh {
+    width: 14.5%;
+    height: 25%;
+    top: 8.5%;
+    right: 10%;
+    z-index: 1;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+}
+.vlavo_hore_cervena_kruh {
+    width: 14.5%;
+    height: 25%;
+    top: 8.5%;
+    left: 10%;
+    z-index: 1;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+}
+.vpravo_dole_cervena_kruh {
+    width: 14.5%;
+    height: 25%;
+    bottom: 8.5%;
+    right: 10%;
+    z-index: 1;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+}
+.vlavo_dole_cervena_kruh {
+    width: 14.5%;
+    height: 25%;
+    bottom: 8.5%;
+    left: 10%;
+    z-index: 1;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+}
+.brankar_vlavo {
+    width: 5%;
+    height: 12%;
+    bottom: 44%;
+    left: 7%;
+    z-index: 1;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(64, 64, 255);
+    border: 1.5px solid red;
+    position: absolute;
+}
+.brankar_vpravo {
+    width: 5%;
+    height: 12%;
+    bottom: 44%;
+    right: 7%;
+    z-index: 1;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: rgb(64, 64, 255);
+    border: 1.5px solid red;
+    position: absolute;
+}
+.hore_vpravo {
+    width: 10px;
+    height: 10px;
+    bottom: 16.5%;
+    right: 18%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-left: 0;
+    border-bottom: 0;
+}
+.hore_vlavo {
+    width: 10px;
+    height: 10px;
+    bottom: 16.5%;
+    right: 15.2%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-right: 0;
+    border-bottom: 0;
+}
+.dole_vpravo {
+    width: 10px;
+    height: 10px;
+    bottom: 21.5%;
+    right: 18%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-left: 0;
+    border-top: 0;
+}
+.dole_vlavo {
+    width: 10px;
+    height: 10px;
+    bottom: 21.5%;
+    right: 15.2%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-right: 0;
+    border-top: 0;
+}
+.hore_vpravo_hore {
+    width: 10px;
+    height: 10px;
+    top: 16.5%;
+    right: 18%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-left: 0;
+    border-top: 0;
+}
+.hore_vlavo_hore {
+    width: 10px;
+    height: 10px;
+    top: 16.5%;
+    right: 15.2%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-right: 0;
+    border-top: 0;
+}
+.dole_vpravo_hore {
+    width: 10px;
+    height: 10px;
+    top: 21.5%;
+    right: 18%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-left: 0;
+    border-bottom: 0;
+}
+.dole_vlavo_hore {
+    width: 10px;
+    height: 10px;
+    top: 21.5%;
+    right: 15.2%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-right: 0;
+    border-bottom: 0;
+}
+.hore_vpravo_dole {
+    width: 10px;
+    height: 10px;
+    bottom: 16.5%;
+    left: 18%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-right: 0;
+    border-bottom: 0;
+}
+.hore_vlavo_dole {
+    width: 10px;
+    height: 10px;
+    bottom: 16.5%;
+    left: 15.2%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-left: 0;
+    border-bottom: 0;
+}
+.dole_vpravo_dole {
+    width: 10px;
+    height: 10px;
+    bottom: 21.5%;
+    left: 18%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-right: 0;
+    border-top: 0;
+}
+.dole_vlavo_dole {
+    width: 10px;
+    height: 10px;
+    bottom: 21.5%;
+    left: 15.2%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-left: 0;
+    border-top: 0;
+}
+.hore_vpravo_hore_vlavo {
+    width: 10px;
+    height: 10px;
+    top: 16.5%;
+    left: 18%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-right: 0;
+    border-top: 0;
+}
+.hore_vlavo_hore_vlavo {
+    width: 10px;
+    height: 10px;
+    top: 16.5%;
+    left: 15.2%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-left: 0;
+    border-top: 0;
+}
+.dole_vpravo_hore_vlavo {
+    width: 10px;
+    height: 10px;
+    top: 21.5%;
+    left: 18%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-right: 0;
+    border-bottom: 0;
+}
+.dole_vlavo_hore_vlavo {
+    width: 10px;
+    height: 10px;
+    top: 21.5%;
+    left: 15.2%;
+    z-index: 1;
+    border: 1px solid red;
+    position: absolute;
+    border-left: 0;
+    border-bottom: 0;
+}
+.ciarka_hore_vlavo_hore{
+    width: 20px;
+    height: 10px;
+    top: 33.2%;
+    left: 15.9%;
+    z-index: 1;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    position: absolute;
+}
+.ciarka_dole_vlavo_hore{
+    width: 20px;
+    height: 10px;
+    top: 6.3%;
+    left: 15.9%;
+    z-index: 1;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    position: absolute;
+}
+.ciarka_hore_vlavo_dole{
+    width: 20px;
+    height: 10px;
+    bottom: 33.2%;
+    left: 15.9%;
+    z-index: 1;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    position: absolute;
+}
+.ciarka_dole_vlavo_dole{
+    width: 20px;
+    height: 10px;
+    bottom: 6.3%;
+    left: 15.9%;
+    z-index: 1;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    position: absolute;
+}
+.ciarka_hore_vpravo_dole{
+    width: 20px;
+    height: 10px;
+    bottom: 33.2%;
+    right: 15.9%;
+    z-index: 1;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    position: absolute;
+}
+.ciarka_dole_vpravo_dole{
+    width: 20px;
+    height: 10px;
+    bottom: 6.3%;
+    right: 15.9%;
+    z-index: 1;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    position: absolute;
+}
+.ciarka_hore_vpravo_hore{
+    width: 20px;
+    height: 10px;
+    top: 33.2%;
+    right: 15.9%;
+    z-index: 1;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    position: absolute;
+}
+.ciarka_dole_vpravo_hore{
+    width: 20px;
+    height: 10px;
+    top: 6.3%;
+    right: 15.9%;
+    z-index: 1;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    position: absolute;
+}
+.puk {
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    width: 10px;
+    height: 10px;
+    z-index: 5;
+    left: 49.3%;
+    top:48.3%;
+    animation-name: puk_move;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
+@keyframes puk_move {
+    0% { transform: translateX(0) translateY(0); }
+    10% { transform: translateX(-115px) translateY(20px); }
+    20% { transform: translateX(-70px) translateY(50px); }
+    30% { transform: translateX(38px) translateY(35px); }
+    40% { transform: translateX(200px) translateY(85px); }
+    50% { transform: translateX(190px) translateY(20px); }
+    53% { transform: translateX(305px) translateY(20px); }
+    60% { transform: translateX(307px) translateY(10px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+.player {
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+    width: 20px;
+    height: 20px;
+    z-index: 6;
+    background-color: #00efff;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    font-size: 12px;
+    pointer-events: none;
+}
+@keyframes move-player-8 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(25px) translateY(145px); }
+    30% { transform: translateX(-10px) translateY(110px); }
+    40% { transform: translateX(40px) translateY(70px); }
+    50% { transform: translateX(120px) translateY(90px); }
+    60% { transform: translateX(240px) translateY(100px); }
+    70% { transform: translateX(260px) translateY(120px); }
+    80% { transform: translateX(450px) translateY(260px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+@keyframes move-player-17 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(95px) translateY(245px); }
+    30% { transform: translateX(150px) translateY(200px); }
+    40% { transform: translateX(180px) translateY(120px); }
+    50% { transform: translateX(190px) translateY(100px); }
+    60% { transform: translateX(270px) translateY(190px); }
+    70% { transform: translateX(285px) translateY(200px); }
+    80% { transform: translateX(447px) translateY(270px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+@keyframes move-player-22 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(25px) translateY(225px); }
+    30% { transform: translateX(20px) translateY(210px); }
+    40% { transform: translateX(65px) translateY(240px); }
+    50% { transform: translateX(100px) translateY(230px); }
+    60% { transform: translateX(270px) translateY(250px); }
+    70% { transform: translateX(285px) translateY(270px); }
+    80% { transform: translateX(490px) translateY(250px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+@keyframes move-player-11 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(45px) translateY(130px); }
+    30% { transform: translateX(10px) translateY(80px); }
+    40% { transform: translateX(60px) translateY(160px); }
+    50% { transform: translateX(90px) translateY(210px); }
+    60% { transform: translateX(310px) translateY(150px); }
+    70% { transform: translateX(330px) translateY(175px); }
+    80% { transform: translateX(385px) translateY(280px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+@keyframes move-player-92 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(73px) translateY(185px); }
+    30% { transform: translateX(40px) translateY(250px); }
+    40% { transform: translateX(100px) translateY(300px); }
+    50% { transform: translateX(150px) translateY(330px); }
+    60% { transform: translateX(300px) translateY(280px); }
+    70% { transform: translateX(320px) translateY(260px); }
+    80% { transform: translateX(425px) translateY(290px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+.player_e {
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+    width: 20px;
+    height: 20px;
+    z-index: 6;
+    background-color: rgb(152, 255, 152);
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    font-size: 12px;
+    pointer-events: none;
+}
+@keyframes move-player-10 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(-25px) translateY(145px); }
+    30% { transform: translateX(-10px) translateY(110px); }
+    40% { transform: translateX(-30px) translateY(125px); }
+    50% { transform: translateX(-20px) translateY(110px); }
+    60% { transform: translateX(40px) translateY(150px); }
+    70% { transform: translateX(50px) translateY(170px); }
+    80% { transform: translateX(70px) translateY(190px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+@keyframes move-player-81 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(-55px) translateY(245px); }
+    30% { transform: translateX(-60px) translateY(200px); }
+    40% { transform: translateX(-55px) translateY(150px); }
+    50% { transform: translateX(-70px) translateY(200px); }
+    60% { transform: translateX(73px) translateY(240px); }
+    70% { transform: translateX(67px) translateY(210px); }
+    80% { transform: translateX(60px) translateY(210px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+@keyframes move-player-33 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(-92px) translateY(185px); }
+    30% { transform: translateX(-85px) translateY(200px); }
+    40% { transform: translateX(-65px) translateY(130px); }
+    50% { transform: translateX(-70px) translateY(190px); }
+    60% { transform: translateX(90px) translateY(150px); }
+    70% { transform: translateX(140px) translateY(180px); }
+    80% { transform: translateX(150px) translateY(190px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+@keyframes move-player-18 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(-75px) translateY(130px); }
+    30% { transform: translateX(-110px) translateY(90px); }
+    40% { transform: translateX(-155px) translateY(75px); }
+    50% { transform: translateX(-60px) translateY(90px); }
+    60% { transform: translateX(50px) translateY(110px); }
+    70% { transform: translateX(60px) translateY(130px); }
+    80% { transform: translateX(65px) translateY(135px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+@keyframes move-player-88 {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(-55px) translateY(245px); }
+    30% { transform: translateX(-95px) translateY(265px); }
+    40% { transform: translateX(-60px) translateY(320px); }
+    50% { transform: translateX(-80px) translateY(260px); }
+    60% { transform: translateX(80px) translateY(270px); }
+    70% { transform: translateX(110px) translateY(250px); }
+    80% { transform: translateX(120px) translateY(260px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+.brankar_first {
+    animation-name: brankar_jeden;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+    width: 20px;
+    height: 20px;
+    z-index: 3;
+    background-color: #00efff;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    font-size: 12px;
+    pointer-events: none;
+}
+@keyframes brankar_jeden {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(-110px) translateY(185px); }
+    30% { transform: translateX(-90px) translateY(185px); }
+    40% { transform: translateX(-90px) translateY(190px); }
+    50% { transform: translateX(-90px) translateY(187px); }
+    60% { transform: translateX(-80px) translateY(200px); }
+    70% { transform: translateX(-75px) translateY(190px); }
+    80% { transform: translateX(-65px) translateY(189px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
+.brankar_second {
+    animation-name: brankar_dva;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    background-color: rgb(152, 255, 152);
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    font-size: 12px;
+    pointer-events: none;
+}
+@keyframes brankar_dva {
+    0% { transform: translateX(0) translateY(0); }
+    20% { transform: translateX(100px) translateY(190px); }
+    30% { transform: translateX(90px) translateY(185px); }
+    40% { transform: translateX(100px) translateY(190px); }
+    50% { transform: translateX(100px) translateY(195px); }
+    60% { transform: translateX(90px) translateY(210px); }
+    70% { transform: translateX(105px) translateY(190px); }
+    80% { transform: translateX(120px) translateY(189px); }
+    100% { transform: translateX(0px) translateY(0px); }
+}
